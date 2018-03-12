@@ -6,21 +6,21 @@
   </head>
   <body>
 
-  	<header class="main-header">
-  		<nav class="main-navigation">
-  			<a class="main-header-logo">
-  			  <img src="img/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
-  			</a>
-  			<ul class="site-navigation">
-  				<li><a href="#">Информация</a></li>
-  				<li><a href="#">Фото и видео</a></li>
-  			 	<li><a href="#">Карта штата</a></li>
-  			 	<li><a href="hotels.html">Гостиницы</a></li>
-  			</ul> 			
-  		</nav>
-  	</header>
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo">
+          <img src="img/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
+        </a>
+          <ul class="site-navigation">
+          <li><a href="#">Информация</a></li>
+          <li><a href="#">Фото и видео</a></li>
+          <li><a href="#">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  	<main class="container">
+    <main class="container">
       <img src="img/index-sedona.jpg" width="1200" height="510" alt="Окрестности Седоны">
       <p><b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b></p>
 
@@ -76,16 +76,16 @@
         <b>Заинтересовались?</b>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие
           предложения гостиниц в Седоне</p>
-        <a class="button" href="#">Поиск гостиницы в Седоне</a>
+        <a class="search-button" href="#">Поиск гостиницы в Седоне</a>
       </section>
 
       <section class="map">
         <h2 class="visually-hidden">Карта Аризоны</h2>
         <img src="img/index-map.png" width="1200" height="593" alt="Карта Аризоны">
       </section>
-  	</main>
+    </main>
 
-  	<footer class="main-footer">
+    <footer class="main-footer">
       <span class="footer-hashtag">#visitsedona</span>
 
       <div class="footer-social">
@@ -99,14 +99,35 @@
       <p class="footer-copyright">
         <span>Website by</span>
         <span><a href="https://htmlacademy.ru/intensive/htmlcss">Логотип Академии</a></span>
-        <span>html academy</span> 
       </p>
-  		
-  	</footer>
+
+    </footer>
 
     <section class="modal modal-hotel-search">
       <h2>Поиск гостиницы в Седоне</h2>
-      <!-- Здесь будет форма -->   
+      <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+        <p>
+          <label for="entry-hotel">Дата заезда:</label>
+          <input class="search-icon-calendar" id="entry-hotel" type="text" name="entry" placeholder="24 апреля 2017" value="">
+        </p>
+        <p>
+          <label for="exit-hotel">Дата выезда:</label>
+          <input class="search-icon-calendar" id="exit-hotel" type="text" name="exit" placeholder="4 июля 2017" value="">
+        </p>
+        <p>
+          <label for="adult-total">Взрослые:</label>
+          <button type="button" class="">Добавить взрослого</button>
+          <input class="" id="adult-total" type="text" value="2" name="adult">
+          <button type="button" class="">Убрать взрослого</button>
+        </p>
+        <p>
+          <label for="children-total">Дети:</label>
+          <button type="button" class="">Добавить ребенка</button>
+          <input class="" id="children-total" type="text" value="0" name="children">
+          <button type="button" class="">Убрать ребенка</button>
+        </p>
+        <button class="search-button" type="submit">Найти</button>
+      </form>
     </section>
 
   </body>

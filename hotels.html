@@ -2,53 +2,102 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8">
-	<title>Гостиницы</title>
+  <meta charset="UTF-8">
+  <title>Гостиницы</title>
 </head>
 
 <body>
 
-	<header class="main-header">
-  	<nav class="main-navigation">
-  		<a class="main-header-logo" href="index.html">
-  			<img src="img/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
-  		</a>
-  		<ul class="site-navigation">
-  			<li><a href="#">Информация</a></li>
-  			<li><a href="#">Фото и видео</a></li>
-  			<li><a href="#">Карта штата</a></li>
-  			<li><a class="site-navigation-current" href="hotels.html">Гостиницы</a></li>
-  		</ul> 			
-  	</nav>
+  <header class="main-header">
+    <nav class="main-navigation">
+      <a class="main-header-logo" href="index.html">
+        <img src="img/logo-sedona.png" width="138" height="70" alt="Логотип города Седона">
+      </a>
+      <ul class="site-navigation">
+        <li><a href="#">Информация</a></li>
+        <li><a href="#">Фото и видео</a></li>
+        <li><a href="#">Карта штата</a></li>
+        <li><a class="site-navigation-current" href="hotels.html">Гостиницы</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main class="container">
 
-  	<section class="filters">
-  		<h2 class="visually-hidden">Фильтр гостиниц</h2>
-  		<!-- Здесь будет форма -->
-  	</section>
+    <section class="filters">
+      <h2 class="visually-hidden">Фильтр гостиниц</h2>
+      <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-pool" name="pool" type="checkbox" checked>
+              <label for="filter-pool">Бассейн</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-parking" name="parking" type="checkbox">
+              <label for="filter-parking">Парковка</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-wifi" name="wifi" type="checkbox">
+              <label for="filter-wifi">Wi-Fi</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-hotel" name="hotel" type="checkbox" checked>
+              <label for="filter-hotel">Гостиница</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-motel" name="motel" type="checkbox" checked>
+              <label for="filter-motel">Мотель</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" id="filter-apartments" name="apartments" type="checkbox" checked>
+              <label for="filter-apartments">Апартаменты</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Стоимость в сутки (Р):</legend>
+          <label class="visually-hidden" for="money-less">Меньшее значение ценового диапазона</label>
+          <input class="filter-input filter-input-text" id="money-less" type="text" name="less" value="от 0">
+          <label class="visually-hidden" for="money-more">Большее значение ценового диапазона</label>
+          <input class="filter-input filter-input-text" id="money-more" type="text" name="more" value="до 3000">
+          <p>
+            <!--Я так поняла, что двойной ползунок нельзя сделать на чистом html,
+            а только при помощи скрипта. Поэтому пока разметила так. -->
+            <label class="visually-hidden" for="price-range">Ценовой диапозон</label>
+            <input class="filter-input filter-input-range" id="price-range" type="range" name="range" value="">
+          </p>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
+      </form>
+    </section>
 
-  	<section class="hotels-found">
-  		<h2 class="visually-hidden">Найденные гостиницы</h2>
-  		<div class="sorting">
-  			<div class="sorting-total-found">
-  		    <span class="sorting-found">Найдено:</span>
-  		    <span class="sorting-total">3</span>
-  		  </div>
-  		  <div class="sorting-list-items">
-  		    <span>Сортировка:</span>
-  		    <ul class="sorting-list">
-  			    <li class="sorting-item sorting-item-current"><a>По цене</a></li>
-  			    <li class="sorting-item"><a href="#">По типу</a></li>
-  			    <li class="sorting-item"><a href="#">По рейтингу</a></li>
-  		    </ul>
-  		  </div>
-  		  <div class="sorting-button">
-  		    <span class="sorting-button-top sorting-button-top-current"><a>Вверх</a></span>
-  			  <span class="sorting-button-bottom"><a href="#">Вниз</a></span>
-  			</div>
-  		</div>
+    <section class="hotels-found">
+      <h2 class="visually-hidden">Найденные гостиницы</h2>
+      <div class="sorting">
+        <div class="sorting-total-found">
+          <span class="sorting-found">Найдено:</span>
+          <span class="sorting-total">3</span>
+        </div>
+        <div class="sorting-list-items">
+          <span>Сортировка:</span>
+          <ul class="sorting-list">
+            <li class="sorting-item sorting-item-current"><a>По цене</a></li>
+            <li class="sorting-item"><a href="#">По типу</a></li>
+            <li class="sorting-item"><a href="#">По рейтингу</a></li>
+          </ul>
+        </div>
+        <div class="sorting-button">
+          <span class="sorting-button-top sorting-button-top-current"><a>Сортировать по убыванию</a></span>
+          <span class="sorting-button-bottom"><a href="#">Сортировать по возрастанию</a></span>
+        </div>
+      </div>
 
   		<div class="hotels-info">
   			<ul class="hotels-info-list">
@@ -107,9 +156,9 @@
   				  </p>
   				</li>
   			</ul>
-  		</div>
-  	</section>
-  	
+      </div>
+    </section>
+
   </main>
 
   <footer class="main-footer">
@@ -126,10 +175,9 @@
     <p class="footer-copyright">
       <span>Website by</span>
       <span><a href="https://htmlacademy.ru/intensive/htmlcss">Логотип Академии</a></span>
-      <span>html academy</span> 
     </p>
-  		
-  	</footer>
-	
+
+    </footer>
+
 </body>
 </html>
