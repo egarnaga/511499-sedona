@@ -66,12 +66,10 @@
           <input class="filter-input filter-input-text" id="money-less" type="text" name="less" value="от 0">
           <label class="visually-hidden" for="money-more">Большее значение ценового диапазона</label>
           <input class="filter-input filter-input-text" id="money-more" type="text" name="more" value="до 3000">
-          <p>
-            <!--Я так поняла, что двойной ползунок нельзя сделать на чистом html,
-            а только при помощи скрипта. Поэтому пока разметила так. -->
-            <label class="visually-hidden" for="price-range">Ценовой диапозон</label>
-            <input class="filter-input filter-input-range" id="price-range" type="range" name="range" value="">
-          </p>
+          <div class="filter-price-slider">
+            <span class="price-min"></span>
+            <span class="price-max"></span>
+          </div>
         </fieldset>
         <button type="submit" class="filter-button button">Показать</button>
       </form>
