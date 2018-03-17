@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -22,7 +25,7 @@
 
     <main class="container">
       <img src="img/index-sedona.jpg" width="1200" height="510" alt="Окрестности Седоны">
-      <p><b>Седона - небольшой городок в Аризоне, заслуживающий большего!</b></p>
+      <p class="slogan">Седона - небольшой городок в Аризоне, заслуживающий большего!</p>
 
       <section class="reasons">
         <h2 class="reasons-title">Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</h2>
@@ -32,20 +35,22 @@
             <span>- №1 -</span>
             <p>Седона — не аттракцион для туристов, там течет своя жизнь</p>
             <img src="img/index-city-sedona.jpg" width="800" height="256" alt="Город Седона">
-            <ul class="reason-real-city-features">
-              <li>
-                <h4>Жилье</h4>
-                <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-              </li>
-              <li>
-                <h4>Еда</h4>
-                <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              </li>
-              <li>
-                <h4>Сувениры</h4>
-                <p>Не только китайского, но и местного производства!</p>
-              </li>
-            </ul>
+            <div class="features-columns">
+              <ul class="reason-real-city-features">
+                <li>
+                  <h4>Жилье</h4>
+                  <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+                </li>
+                <li>
+                  <h4>Еда</h4>
+                  <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                </li>
+                <li>
+                  <h4>Сувениры</h4>
+                  <p>Не только китайского, но и местного производства!</p>
+                </li>
+              </ul>
+            </div>
           </li>
           <li class="reason-devils-bridge">
             <h3>Там есть Мост Дьявола</h3>
@@ -89,7 +94,7 @@
       <span class="footer-hashtag">#visitsedona</span>
 
       <div class="footer-social">
-        <ul>
+        <ul class="social-list">
           <li><a class="social-button" href="#">Твиттер</a></li>
           <li><a class="social-button" href="#">Фейсбук</a></li>
           <li><a class="social-button" href="#">Ютуб</a></li>
@@ -104,7 +109,7 @@
     </footer>
 
     <section class="modal modal-hotel-search">
-      <h2>Поиск гостиницы в Седоне</h2>
+      <h2 class="search-title">Поиск гостиницы в Седоне</h2>
       <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
         <p>
           <label for="entry-hotel">Дата заезда:</label>
@@ -128,7 +133,7 @@
           <input class="children-sum" id="children-total" type="text" value="0" name="children">
           <button class="children-remove" type="button">Убрать ребенка</button>
         </p>
-        <button class="search-button" type="submit">Найти</button>
+        <button class="find-button" type="submit">Найти</button>
       </form>
     </section>
 

@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #333333;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-navigation {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a {
+  color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #81b3d2;
+}
+
+.site-navigation a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  text-align: center;
+}
+
+.container img {
+  background-color: #accadf;
+}
+
+.slogan {
+  font-size: 21px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.reasons-title {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.reasons-list {
+  list-style: none;
+}
+
+.reason-real-city,
+.reason-devils-bridge {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.reason-real-city h3,
+.reason-devils-bridge h3,
+.reason-small-city h3,
+.reason-beautiful-road h3,
+.reason-few-tourists h3,
+.reason-real-city-features h4 {
+  font-size: 21px;
+  line-height: 37px;
+}
+
+.reason-real-city h3,
+.reason-devils-bridge h3 {
+  font-weight: bold;
+}
+
+.reason-real-city img {
+  background-color: #73625a;
+}
+
+.features-columns {
+  background-color: #ffffff;
+}
+
+.reason-real-city-features {
+  list-style: none;
+  color: #333333;
+}
+
+.reason-real-city-features h4 {
+  color: #000000;
+}
+
+.reason-devils-bridge img {
+  background-color: #735c4d;
+}
+
+.reason-small-city,
+.reason-beautiful-road,
+.reason-few-tourists {
+  background-color: #eeeeee;
+}
+
+.reason-small-city h3,
+.reason-beautiful-road h3,
+.reason-few-tourists h3 {
+  color: #000000;
+}
+
+.hotel-search b {
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+}
+
+.search-button {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+
+  background-color: #766357;
+  border: none;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #604e43;
+}
+
+.search-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.map img {
+  background-color: #cfdfae;
+}
+
+.footer-hashtag {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.search-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.search-form {
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: bold;
+
+  color: #000000;
+}
+
+.find-button {
+  font: inherit;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+
+  background-color: #81b3d2;
+  border: none;
+  cursor: pointer;
+}
+
+.find-button:hover,
+.find-button:focus {
+  background-color: #669ec0;
+}
+
+.find-button:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
