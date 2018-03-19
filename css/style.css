@@ -84,7 +84,7 @@ a {
 
 .reason-real-city h3,
 .reason-devils-bridge h3 {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .reason-real-city img {
@@ -129,7 +129,7 @@ a {
 .search-button {
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 
   text-align: center;
   color: #ffffff;
@@ -153,6 +153,68 @@ a {
   background-color: #cfdfae;
 }
 
+/* Начало стилизации holels.html */
+
+.filters {
+  line-height: 21px;
+  color: #ffffff;
+  text-align: left;
+
+  background-color: #7c8d9d;
+  background-image: url("../img/hotels-bg-filter.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.filters fieldset {
+  border: none;
+}
+
+.filters legend {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.filter-infrastructure ul,
+.filter-type ul {
+  list-style: none;
+}
+
+.filter-price input {
+  font: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+}
+
+.filter-button {
+  font: inherit;
+  color: #ffffff;
+  text-transform: uppercase;
+
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+/* Конец стилизации hotels.html */
+
 .main-footer {
   text-align: center;
 }
@@ -160,7 +222,7 @@ a {
 .footer-hashtag {
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .social-list {
@@ -177,7 +239,7 @@ a {
 .search-title {
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 
   color: #ffffff;
   background-color: #766357;
@@ -186,7 +248,7 @@ a {
 .search-form {
   font-size: 14px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 
   color: #000000;
 }
@@ -235,7 +297,7 @@ input:-ms-input-placeholder {
   font: inherit;
   font-size: 21px;
   line-height: 26px;
-  font-weight: bold;
+  font-weight: 700;
 
   text-align: center;
   color: #ffffff;
