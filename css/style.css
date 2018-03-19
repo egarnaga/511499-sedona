@@ -213,6 +213,55 @@ a {
   background-color: #ffffff;
 }
 
+.hotels-found {
+  text-align: left;
+}
+
+.sorting-found,
+.sorting-total {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.sorting-list-items {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.sorting-list-items span {
+  color: #000000;
+}
+
+.sorting-list {
+  list-style: none;
+}
+
+.sorting-list a {
+  color: rgba(0, 0, 0, 0.3);
+
+  border-bottom: 1px dotted #81b3d2;
+}
+
+.sorting-list a:hover,
+.sorting-list a:focus {
+  color: #81b3d2;
+}
+
+.sorting-list a:active {
+  color: #000000;
+
+  border-bottom: none;
+}
+
+.sorting-item-current a {
+  color: #81b3d2;
+
+  border-bottom: none;
+}
+
 /* Конец стилизации hotels.html */
 
 .main-footer {
