@@ -262,6 +262,70 @@ a {
   border-bottom: none;
 }
 
+.hotels-info-list {
+  list-style: none;
+}
+
+.hotels-item-title {
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.hotels-item-title:hover,
+.hotels-item-title:focus {
+  color: #81b3d2;
+}
+
+.hotels-item-title:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.hotels-item-image img {
+  background-color: #7c8d9d;
+}
+
+.hotels-item-button {
+  font-weight: 700;
+}
+
+.button-info {
+  color: #ffffff;
+  background-color: #81b3d2;
+}
+
+.button-info:hover,
+.button-info:focus {
+  background-color: #669ec0;
+}
+
+.button-info:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #5496bd;
+}
+
+.button-booking {
+  color: #ffffff;
+  background-color: #766357;
+}
+
+.button-booking:hover,
+.button-booking:focus {
+  background-color: #604e43;
+}
+
+.button-booking:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: #503e33;
+}
+
+.hotels-item-number {
+  color: #666666;
+  background-color: #f2f2f2;
+}
+
 /* Конец стилизации hotels.html */
 
 .main-footer {
