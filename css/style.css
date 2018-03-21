@@ -72,23 +72,10 @@ a {
   background-color: #81b3d2;
 }
 
-.reason-real-city h3,
-.reason-devils-bridge h3,
-.reason-small-city h3,
-.reason-beautiful-road h3,
-.reason-few-tourists h3,
-.reason-real-city-features h4 {
+.title {
   font-size: 21px;
   line-height: 37px;
-}
-
-.reason-real-city h3,
-.reason-devils-bridge h3 {
   font-weight: 700;
-}
-
-.reason-real-city img {
-  background-color: #73625a;
 }
 
 .features-columns {
@@ -102,10 +89,6 @@ a {
 
 .reason-real-city-features h4 {
   color: #000000;
-}
-
-.reason-devils-bridge img {
-  background-color: #735c4d;
 }
 
 .reason-small-city,
@@ -147,10 +130,6 @@ a {
 .search-button:active {
   color: rgba(255, 255, 255, 0.3);
   background-color: #503e33;
-}
-
-.map img {
-  background-color: #cfdfae;
 }
 
 /* Начало стилизации holels.html */
@@ -281,10 +260,6 @@ a {
 
 .hotels-item-title:active {
   color: rgba(0, 0, 0, 0.3);
-}
-
-.hotels-item-image img {
-  background-color: #7c8d9d;
 }
 
 .hotels-item-button {
