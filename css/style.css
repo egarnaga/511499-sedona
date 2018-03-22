@@ -24,6 +24,8 @@ a {
 }
 
 .main-navigation {
+  padding: 0 70px;
+
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
@@ -32,8 +34,33 @@ a {
   background-color: #ffffff;
 }
 
+.main-header-logo {
+  width: 138px;
+  height: 70px;
+}
+
 .site-navigation {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
   list-style: none;
+}
+
+.site-navigation li {
+  flex-basis: 25%;
+  padding: 20px 0;
+}
+
+.site-navigation li:nth-child(1),
+.site-navigation li:nth-child(2) {
+  text-align: left;
+}
+
+.site-navigation li:nth-child(3),
+.site-navigation li:nth-child(4) {
+  text-align: right;
 }
 
 .site-navigation a {
@@ -74,6 +101,8 @@ a {
 }
 
 .reasons-list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
