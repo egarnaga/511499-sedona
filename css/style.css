@@ -85,6 +85,10 @@ a {
 }
 
 .slogan {
+  padding: 0;
+  padding-top: 65px;
+  padding-bottom: 30px;
+  margin: 0;
   font-size: 21px;
   font-weight: 700;
   color: #000000;
@@ -95,15 +99,33 @@ a {
 }
 
 .reasons-title {
+  padding: 0;
+  padding-bottom: 55px;
+  margin: 0;
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
+}
+
+.reasons p {
+  padding: 0;
+  margin: 0;
 }
 
 .reasons-list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.reason-real-city {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.real-city-wrapper {
+  padding-top: 50px;
+  width: 400px;
 }
 
 .reason-real-city,
@@ -113,22 +135,47 @@ a {
 }
 
 .title {
+  padding: 0;
+  margin: 0;
   font-size: 21px;
   line-height: 37px;
   font-weight: 700;
 }
 
 .features-columns {
+  padding-top: 160px;
+  padding-bottom: 85px;
   background-color: #ffffff;
 }
 
 .reason-real-city-features {
+  display: flex;
   list-style: none;
   color: #333333;
 }
 
+.reason-real-city-features li {
+  padding-right: 65px;
+  padding-left: 65px;
+  flex-basis: 33%;
+}
+
 .reason-real-city-features h4 {
+  padding-bottom: 30px;
   color: #000000;
+}
+
+.reason-devils-bridge {
+  display: flex;
+}
+
+.reason-devils-bridge img {
+  order: 1;
+}
+
+.reason-devils-bridge-wrapper {
+  padding-top: 50px;
+  order: 2;
 }
 
 .reason-small-city,
@@ -144,6 +191,7 @@ a {
 }
 
 .hotel-search {
+  padding-top: 55px;
   background-color: #ffffff;
 }
 
@@ -176,6 +224,15 @@ a {
   background-color: #503e33;
 }
 
+.map {
+  background-color: #dae1c3;
+}
+
+.map img {
+  display: block;
+  margin: auto;
+}
+
 /* Начало стилизации holels.html */
 
 .filters {
@@ -189,6 +246,10 @@ a {
   background-repeat: no-repeat;
 }
 
+.filter {
+  display: flex;
+}
+
 .filters fieldset {
   border: none;
 }
@@ -200,6 +261,8 @@ a {
 
 .filter-infrastructure ul,
 .filter-type ul {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 
@@ -242,6 +305,10 @@ a {
   background-color: #ffffff;
 }
 
+.sorting {
+  display: flex;
+}
+
 .sorting-found,
 .sorting-total {
   font-size: 21px;
@@ -251,6 +318,12 @@ a {
   color: #000000;
 }
 
+.sorting-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 .sorting-list-items {
   font-size: 12px;
   line-height: 18px;
@@ -258,10 +331,6 @@ a {
 
 .sorting-list-items span {
   color: #000000;
-}
-
-.sorting-list {
-  list-style: none;
 }
 
 .sorting-list a {
@@ -350,8 +419,13 @@ a {
 /* Конец стилизации hotels.html */
 
 .main-footer {
+  display: flex;
   text-align: center;
   background-color: #ffffff;
+}
+
+.footer-item {
+  flex-basis: 33%;
 }
 
 .footer-hashtag {
