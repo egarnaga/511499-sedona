@@ -113,6 +113,8 @@ a {
 }
 
 .reasons-list {
+  display: flex;
+  flex-wrap: wrap;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -120,11 +122,14 @@ a {
 
 .reason-real-city {
   display: flex;
+  box-sizing: border-box;
+  width: 1200px;
   flex-wrap: wrap;
 }
 
 .real-city-wrapper {
   padding-top: 50px;
+  box-sizing: border-box;
   width: 400px;
 }
 
@@ -150,14 +155,17 @@ a {
 
 .reason-real-city-features {
   display: flex;
+  box-sizing: border-box;
+  width: 1200px;
   list-style: none;
   color: #333333;
 }
 
 .reason-real-city-features li {
+  box-sizing: border-box;
+  width: 400px;
   padding-right: 65px;
   padding-left: 65px;
-  flex-basis: 33%;
 }
 
 .reason-real-city-features h4 {
@@ -167,6 +175,8 @@ a {
 
 .reason-devils-bridge {
   display: flex;
+  box-sizing: border-box;
+  width: 1200px;
 }
 
 .reason-devils-bridge img {
@@ -181,6 +191,10 @@ a {
 .reason-small-city,
 .reason-beautiful-road,
 .reason-few-tourists {
+  box-sizing: border-box;
+  width: 400px;
+  padding-top: 50px;
+  padding-bottom: 65px;
   background-color: #eeeeee;
 }
 
@@ -357,7 +371,14 @@ a {
 }
 
 .hotels-info-list {
+  padding: 0;
+  margin: 0;
   list-style: none;
+}
+
+.hotels-info-list p {
+  padding: 0;
+  margin: 0;
 }
 
 .hotels-item-title {
@@ -425,7 +446,8 @@ a {
 }
 
 .footer-item {
-  flex-basis: 33%;
+  box-sizing: border-box;
+  width: 400px;
 }
 
 .footer-hashtag {
@@ -450,6 +472,8 @@ a {
 }
 
 .search-title {
+  padding: 0;
+  margin: 0;
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
