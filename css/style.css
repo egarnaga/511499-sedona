@@ -273,11 +273,26 @@ a {
   font-weight: 700;
 }
 
+.filter-infrastructure {
+  box-sizing: border-box;
+  width: 300px;
+}
+
 .filter-infrastructure ul,
 .filter-type ul {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.filter-type {
+  box-sizing: border-box;
+  width: 300px;
+}
+
+.filter-price {
+  box-sizing: border-box;
+  width: 600px;
 }
 
 .filter-price input {
@@ -316,7 +331,7 @@ a {
 .hotels-found {
   text-align: left;
 
-  background-color: #ffffff;
+  background-color: #fefefe;
 }
 
 .sorting {
@@ -370,10 +385,22 @@ a {
   border-bottom: none;
 }
 
+.hotels-info {
+  background-color: #fefefe;
+}
+
 .hotels-info-list {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.item-wrapper {
+  border-top: 1px solid #e5e5e5;
+}
+
+.item-wrapper-border {
+  border-bottom: 1px solid #e5e5e5;
 }
 
 .hotels-info-list p {
