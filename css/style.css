@@ -294,6 +294,13 @@ a {
   text-align: left;
 }
 
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
 .filter-price {
   box-sizing: border-box;
   width: 330px;
@@ -421,48 +428,12 @@ a {
   cursor: pointer;
 }
 
-.filter-button:hover {
-  color: #000000;
-
-  background: #ffffff;
-}
-
-/*
-
-.filter-price input {
-  font: inherit;
-  color: #ffffff;
-  text-transform: uppercase;
-
-  background-color: transparent;
-  border: 2px solid #ffffff;
-}
-
-.filter-button {
-  font: inherit;
-  color: #ffffff;
-  text-transform: uppercase;
-
-  background-color: transparent;
-  border: 2px solid #ffffff;
-  cursor: pointer;
-}
-
 .filter-button:hover,
 .filter-button:focus {
   color: #000000;
 
-  background-color: #ffffff;
+  background: #ffffff;
 }
-
-.filter-input:hover + label,
-.filter-input:focus + label {
-  color: #000000;
-
-  background-color: #ffffff;
-}
-
-*/
 
 .hotels-found {
   text-align: left;
