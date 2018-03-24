@@ -64,18 +64,21 @@
           </ul>
         </fieldset>
         <div>
-          <fieldset class="filter-price">
-            <legend>Стоимость в сутки (Р):</legend>
-            <label class="visually-hidden" for="money-less">Меньшее значение ценового диапазона</label>
-            <input class="filter-input filter-input-text" id="money-less" type="text" name="less" value="от 0">
-            <label class="visually-hidden" for="money-more">Большее значение ценового диапазона</label>
-            <input class="filter-input filter-input-text" id="money-more" type="text" name="more" value="до 3000">
-            <div class="filter-price-slider">
-              <span class="price-min"></span>
-              <span class="price-max"></span>
+          <div class="filter-price">
+            <div class="filter-range-title">Стоимость в сутки (Р):</div>
+            <div class="price-controls">
+              <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+              <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
             </div>
-          </fieldset>
-          <button type="submit" class="filter-button button">Показать</button>
+            <div class="range-controls">
+              <div class="scale">
+                <div class="bar"></div>
+              </div>
+              <div class="range-toggle range-toggle-min"></div>
+              <div class="range-toggle range-toggle-max"></div>
+            </div>
+          </div>
+          <button class="filter-button button" type="submit">Показать</button>
         </div>
       </form>
     </section>
