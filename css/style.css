@@ -54,7 +54,9 @@ a {
 
 .site-navigation li {
   flex-basis: 25%;
-  padding: 20px 0;
+  padding: 0;
+  padding-top: 16px;
+  padding-bottom: 19px;
 }
 
 .site-navigation li:nth-child(1),
