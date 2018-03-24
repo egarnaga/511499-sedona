@@ -478,6 +478,7 @@ a {
 }
 
 .sorting-list-items {
+  display: flex;
   font-size: 12px;
   line-height: 18px;
 }
