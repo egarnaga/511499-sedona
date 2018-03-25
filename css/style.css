@@ -397,12 +397,15 @@ input[type="radio"].visually-hidden {
 .hotel-search p {
   padding: 0;
   padding-top: 22px;
-  padding-bottom: 50px;
+  padding-bottom: 47px;
   margin: 0;
   line-height: 24px;
 }
 
 .search-button {
+  display: inline-block;
+  padding: 31px 140px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -825,7 +828,36 @@ input[type="radio"].visually-hidden {
 }
 
 .social-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 151px;
   list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 46px;
+  height: 48px;
+
+  background-color: #81b3d2;
+}
+
+.social-button:hover,
+.social-button:focus {
+  background-color: #669ec0;
+}
+
+.social-button:active {
+  background-color: #5496bd;
+}
+
+.social-button:active path {
+  fill: rgba(255, 255, 255, 0.3);
 }
 
 .footer-copyright {
@@ -833,6 +865,15 @@ input[type="radio"].visually-hidden {
   line-height: 26px;
 
   color: #000000;
+}
+
+.html-academy:hover path,
+.html-academy:focus path {
+  fill: #81b3d1;
+}
+
+.html-academy:active path {
+  fill: #bdbbbc;
 }
 
 .modal-hotel-search {
