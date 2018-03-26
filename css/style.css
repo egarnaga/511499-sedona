@@ -512,6 +512,14 @@ input[type="radio"].visually-hidden {
   text-align: left;
 }
 
+.filter-type legend {
+  padding-left: 25px;
+}
+
+.filter-type ul {
+  padding-left: 27px;
+}
+
 .filter-input:hover + label,
 .filter-input:focus + label {
   color: #000000;
@@ -522,8 +530,8 @@ input[type="radio"].visually-hidden {
 .filter-input-checkbox + label::before {
   content: "";
   position: absolute;
-  left: -42px;
-  top: 0;
+  left: -40px;
+  top: -2px;
 
   width: 23px;
   height: 23px;
@@ -537,8 +545,8 @@ input[type="radio"].visually-hidden {
   content: "";
 
   position: absolute;
-  top: 0px;
-  left: -42px;
+  top: -2px;
+  left: -40px;
 
   width: 27px;
   height: 23px;
