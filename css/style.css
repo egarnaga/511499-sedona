@@ -442,7 +442,7 @@ input[type="radio"].visually-hidden {
 
 .filters {
   padding-top: 27px;
-  padding-bottom: 30px;
+  padding-bottom: 6px;
 
   line-height: 21px;
   color: #ffffff;
@@ -459,19 +459,39 @@ input[type="radio"].visually-hidden {
 }
 
 .filters fieldset {
+  padding: 0;
+  margin: 0;
   border: none;
 }
 
 .filters legend {
+  margin-bottom: 25px;
   font-size: 16px;
   font-weight: 700;
+}
+
+.filter-option {
+  margin-bottom: 25px;
+  padding-left: 40px;
+}
+
+.filter-option label {
+  position: relative;
+
+  display: block;
+
+  cursor: pointer;
+  user-select: none;
 }
 
 .filter-infrastructure {
   box-sizing: border-box;
   width: 300px;
-  padding-left: 70px;
   text-align: left;
+}
+
+.filter-infrastructure legend {
+  padding-left: 72px;
 }
 
 .filter-infrastructure ul,
@@ -479,6 +499,10 @@ input[type="radio"].visually-hidden {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.filter-infrastructure ul {
+  padding-left: 71px;
 }
 
 .filter-type {
@@ -493,6 +517,36 @@ input[type="radio"].visually-hidden {
   color: #000000;
 
   background-color: #ffffff;
+}
+
+.filter-input-checkbox + label::before {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0;
+
+  width: 23px;
+  height: 23px;
+
+  background-image: url("../img/hotels-checkbox-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+.filter-input-checkbox:checked + label::after {
+  content: "";
+
+  position: absolute;
+  top: 0px;
+  left: -42px;
+
+  width: 27px;
+  height: 23px;
+
+  background-image: url("../img/hotels-checkbox-on.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+
 }
 
 .filter-price {
