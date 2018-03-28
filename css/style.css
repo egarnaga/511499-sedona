@@ -1100,14 +1100,14 @@ input[type="radio"].visually-hidden {
 
 .modal-wrapper {
   position: absolute;
-  bottom: 191px;
+  bottom: 203px;
   left: 315px;
   background-color: #ffffff;
   width: 570px;
   box-sizing: border-box;
   padding: 55px;
   padding-top: 53px;
-  padding-left: 57px;
+  padding-left: 56px;
   text-align: left;
 }
 
@@ -1132,13 +1132,32 @@ input[type="radio"].visually-hidden {
   margin-right: 15px;
 }
 
-.search-icon-calendar {
+.search-icon-calendar-entry {
   padding-left: 10px;
+  padding-right: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-bottom: 27px;
   box-sizing: border-box;
   width: 345px;
+
+  background-image: url("../img/index-modal-calendar.svg");
+  background-position: 314px center;
+  background-repeat: no-repeat;
+}
+
+.search-icon-calendar-exit {
+  padding-left: 10px;
+  padding-right: 40px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  width: 345px;
+
+  background-image: url("../img/index-modal-calendar.svg");
+  background-position: 314px center;
+  background-repeat: no-repeat;
 }
 
 .search-form input {
@@ -1180,7 +1199,12 @@ input:-ms-input-placeholder {
 }
 
 .adult-total-title {
-  margin-right: 30px;
+  margin-right: 34px;
+}
+
+.children-total-title {
+  margin-left: 50px;
+  margin-right: 20px;
 }
 
 
@@ -1189,6 +1213,7 @@ input:-ms-input-placeholder {
   box-sizing: border-box;
   width: 30px;
   padding-top: 7px;
+  padding-left: 7px;
 }
 
 .add,
