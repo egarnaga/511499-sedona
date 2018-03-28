@@ -1179,11 +1179,16 @@ input:-ms-input-placeholder {
   vertical-align: top;
 }
 
+.adult-total-title {
+  margin-right: 30px;
+}
+
 
 .adult-sum,
 .children-sum {
   box-sizing: border-box;
   width: 30px;
+  padding-top: 7px;
 }
 
 .add,
