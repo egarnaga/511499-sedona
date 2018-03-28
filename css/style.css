@@ -1100,11 +1100,12 @@ input[type="radio"].visually-hidden {
 
 .modal-wrapper {
   position: absolute;
-  bottom: 222px;
+  bottom: 209px;
   left: 314px;
   background-color: #ffffff;
   width: 460px;
   padding: 55px;
+  padding-top: 45px;
   text-align: left;
 }
 
@@ -1114,6 +1115,15 @@ input[type="radio"].visually-hidden {
   font-weight: 700;
 
   color: #000000;
+}
+
+.search-form p {
+  padding: 0;
+  margin: 0;
+}
+
+.search-icon-calendar {
+  margin-bottom: 30px;
 }
 
 .search-form input {
@@ -1148,6 +1158,19 @@ input:-ms-input-placeholder {
   color: #000000;
 }
 
+.modal-adult,
+.modal-children {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.adult-sum,
+.children-sum {
+  box-sizing: border-box;
+  width: 30px;
+}
+
 .add,
 .remove {
   background-color: #f2f2f2;
@@ -1162,7 +1185,7 @@ input:-ms-input-placeholder {
   width: 33px;
   height: 38px;
   padding: 0;
-  transform: translateY(-7px);
+  transform: translateY(11px);
 }
 
 .remove::before {
@@ -1189,7 +1212,7 @@ input:-ms-input-placeholder {
   width: 33px;
   height: 38px;
   padding: 0;
-  transform: translateY(-7px);
+  transform: translateY(11px);
 }
 
 .add::before {
@@ -1227,6 +1250,12 @@ input:-ms-input-placeholder {
 }
 
 .find-button {
+  padding-left: 195px;
+  padding-right: 195px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 55px;
+  margin-left: 20px;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
