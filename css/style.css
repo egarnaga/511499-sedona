@@ -856,7 +856,7 @@ input[type="radio"].visually-hidden {
 .item-wrapper {
   display: flex;
   padding-top: 27px;
-  padding-bottom: 31px;
+  padding-bottom: 21px;
   padding-left: 70px;
   padding-right: 73px;
 
@@ -1144,7 +1144,7 @@ input[type="radio"].visually-hidden {
 }
 
 .search-icon-calendar-exit {
-
+  position: relative;
   padding-left: 10px;
   padding-right: 40px;
   padding-top: 5px;
