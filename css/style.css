@@ -1100,12 +1100,14 @@ input[type="radio"].visually-hidden {
 
 .modal-wrapper {
   position: absolute;
-  bottom: 209px;
-  left: 314px;
+  bottom: 191px;
+  left: 315px;
   background-color: #ffffff;
-  width: 460px;
+  width: 570px;
+  box-sizing: border-box;
   padding: 55px;
-  padding-top: 45px;
+  padding-top: 53px;
+  padding-left: 57px;
   text-align: left;
 }
 
@@ -1122,8 +1124,21 @@ input[type="radio"].visually-hidden {
   margin: 0;
 }
 
+.entry-hotel-title {
+  margin-right: 20px;
+}
+
+.exit-hotel-title {
+  margin-right: 15px;
+}
+
 .search-icon-calendar {
-  margin-bottom: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 27px;
+  box-sizing: border-box;
+  width: 345px;
 }
 
 .search-form input {
@@ -1255,7 +1270,6 @@ input:-ms-input-placeholder {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 55px;
-  margin-left: 20px;
   font: inherit;
   font-size: 21px;
   line-height: 26px;
