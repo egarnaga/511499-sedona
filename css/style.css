@@ -1154,34 +1154,6 @@ input[type="radio"].visually-hidden {
   width: 345px;
 }
 
-.icon-calendar-entry {
-  content: "";
-
-  position: absolute;
-  top: 63px;
-  left: 483px;
-  width: 21px;
-  height: 22px;
-
-  background-image: url("../img/index-modal-calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
-.icon-calendar-exit {
-  content: "";
-
-  position: absolute;
-  top: 128px;
-  left: 483px;
-  width: 21px;
-  height: 22px;
-
-  background-image: url("../img/index-modal-calendar.svg");
-  background-repeat: no-repeat;
-  background-position: 0 0;
-}
-
 .search-form input {
   font: inherit;
 
