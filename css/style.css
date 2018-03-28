@@ -1094,19 +1094,18 @@ input[type="radio"].visually-hidden {
 
 /* Начало стилизации модального окна */
 
-.modal-hotel-search {
-  background-color: #ffffff;
+.modal {
+  position: relative;
 }
 
-.search-title {
-  padding: 0;
-  margin: 0;
-  font-size: 21px;
-  line-height: 26px;
-  font-weight: 700;
-
-  color: #ffffff;
-  background-color: #766357;
+.modal-wrapper {
+  position: absolute;
+  bottom: 222px;
+  left: 314px;
+  background-color: #ffffff;
+  width: 460px;
+  padding: 55px;
+  text-align: left;
 }
 
 .search-form {
@@ -1149,13 +1148,82 @@ input:-ms-input-placeholder {
   color: #000000;
 }
 
-.adult-add,
-.adult-remove,
-.children-add,
-.children-remove {
+.add,
+.remove {
   background-color: #f2f2f2;
   border: 2px solid #f2f2f2;
   cursor: pointer;
+}
+
+.remove {
+  position:relative;
+  border: none;
+  background: #f2f2f2;
+  width: 33px;
+  height: 38px;
+  padding: 0;
+  transform: translateY(-7px);
+}
+
+.remove::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 3px;
+  background-color: #a9a9a9;
+  left: 10px;
+}
+
+.remove:hover::before {
+  background-color: #000000;
+}
+
+.remove:focus::before {
+  background-color: #81b3d2;
+}
+
+.add {
+  border: none;
+  position: relative;
+  background: #f2f2f2;
+  width: 33px;
+  height: 38px;
+  padding: 0;
+  transform: translateY(-7px);
+}
+
+.add::before {
+  content: "";
+  position: absolute;
+  width: 11px;
+  height: 3px;
+  left: 13px;
+  background-color: #a9a9a9
+}
+
+.add::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 11px;
+  background-color: #a9a9a9;
+  top: 15px;
+}
+
+.add:hover::before {
+  background-color: #000000;
+}
+
+.add:focus::before {
+  background-color: #81b3d2;
+}
+
+.add:hover::after {
+  background-color: #000000;
+}
+
+.add:focus::after {
+  background-color: #81b3d2;
 }
 
 .find-button {
