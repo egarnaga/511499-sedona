@@ -52,6 +52,7 @@ input[type="radio"].visually-hidden {
 
 .main-navigation {
   position: relative;
+
   padding: 0 70px;
 
   font-size: 14px;
@@ -66,13 +67,13 @@ input[type="radio"].visually-hidden {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+
   width: 138px;
   height: 70px;
 }
 
 .site-navigation {
   display: flex;
-
   margin: 0;
   padding: 0;
 
@@ -124,9 +125,10 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-  text-align: center;
   width: 1200px;
   margin: 0 auto;
+
+  text-align: center;
 }
 
 .sedona-info {
@@ -134,12 +136,12 @@ input[type="radio"].visually-hidden {
 }
 
 .slogan {
-  padding: 0;
   padding-top: 48px;
   padding-bottom: 27px;
   padding-right: 300px;
   padding-left: 300px;
   margin: 0;
+
   font-size: 21px;
   font-weight: 700;
   color: #000000;
@@ -154,6 +156,7 @@ input[type="radio"].visually-hidden {
   padding-left: 356px;
   padding-bottom: 51px;
   margin: 0;
+
   font-size: 14px;
   line-height: 26px;
   font-weight: 400;
@@ -170,6 +173,7 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 
@@ -186,6 +190,7 @@ input[type="radio"].visually-hidden {
 
 .reason-real-city p {
   padding-top: 19px;
+
   line-height: 21px;
 }
 
@@ -200,6 +205,7 @@ input[type="radio"].visually-hidden {
 .reason-real-city,
 .reason-devils-bridge {
   color: #ffffff;
+
   background-color: #81b3d2;
 }
 
@@ -208,8 +214,9 @@ input[type="radio"].visually-hidden {
   padding-right: 60px;
   padding-left: 60px;
   padding-bottom: 21px;
-  width: 151px;
   margin: 0;
+  width: 151px;
+
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
@@ -218,6 +225,7 @@ input[type="radio"].visually-hidden {
 .features-columns {
   padding-top: 161px;
   padding-bottom: 82px;
+
   background-color: #ffffff;
 }
 
@@ -225,6 +233,7 @@ input[type="radio"].visually-hidden {
   display: flex;
   box-sizing: border-box;
   width: 1200px;
+
   list-style: none;
   color: #333333;
 }
@@ -236,6 +245,7 @@ input[type="radio"].visually-hidden {
 
 .reason-real-city-features h4 {
   padding-bottom: 5px;
+
   color: #000000;
 }
 
@@ -338,6 +348,7 @@ input[type="radio"].visually-hidden {
 
 .reason-devils-bridge p {
   padding-top: 19px;
+
   line-height: 21px;
 }
 
@@ -349,6 +360,7 @@ input[type="radio"].visually-hidden {
   padding-top: 46px;
   padding-right: 45px;
   padding-left: 45px;
+
   order: 2;
 }
 
@@ -359,6 +371,7 @@ input[type="radio"].visually-hidden {
   width: 400px;
   padding-top: 47px;
   padding-bottom: 59px;
+
   background-color: #eeeeee;
 }
 
@@ -385,12 +398,15 @@ input[type="radio"].visually-hidden {
 .reason-few-tourists p {
   padding-left: 64px;
   margin-top: 19px;
-  line-height: 21px;
+
   width: 270px;
+
+  line-height: 21px;
 }
 
 .hotel-search {
   padding-top: 50px;
+
   background-color: #ffffff;
 }
 
@@ -405,6 +421,7 @@ input[type="radio"].visually-hidden {
   padding-top: 22px;
   padding-bottom: 47px;
   margin: 0;
+
   line-height: 24px;
 }
 
@@ -431,6 +448,7 @@ input[type="radio"].visually-hidden {
 
 .search-button:active {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: #503e33;
 }
 
@@ -466,11 +484,13 @@ input[type="radio"].visually-hidden {
 .filters fieldset {
   padding: 0;
   margin: 0;
+
   border: none;
 }
 
 .filters legend {
   margin-bottom: 25px;
+
   font-size: 16px;
   font-weight: 700;
 }
@@ -492,6 +512,7 @@ input[type="radio"].visually-hidden {
 .filter-infrastructure {
   box-sizing: border-box;
   width: 300px;
+
   text-align: left;
 }
 
@@ -503,6 +524,7 @@ input[type="radio"].visually-hidden {
 .filter-type ul {
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 
@@ -514,6 +536,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   width: 300px;
   padding-left: 20px;
+
   text-align: left;
 }
 
@@ -570,6 +593,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   width: 320px;
   margin-left: 208px;
+
   text-align: left;
 }
 
@@ -772,6 +796,7 @@ input[type="radio"].visually-hidden {
   padding: 0;
   padding-top: 5px;
   margin: 0;
+
   list-style: none;
 }
 
@@ -791,14 +816,15 @@ input[type="radio"].visually-hidden {
   display: flex;
   box-sizing: border-box;
   width: 800px;
+
   font-size: 12px;
   line-height: 18px;
-
 }
 
 .sorting-list-items span {
   padding-top: 5px;
   padding-left: 4px;
+
   color: #000000;
 }
 
@@ -850,6 +876,7 @@ input[type="radio"].visually-hidden {
 .hotels-info-list {
   padding: 0;
   margin: 0;
+
   list-style: none;
 }
 
@@ -934,6 +961,7 @@ input[type="radio"].visually-hidden {
 
 .button-info {
   color: #ffffff;
+
   background-color: #81b3d2;
 }
 
@@ -944,11 +972,13 @@ input[type="radio"].visually-hidden {
 
 .button-info:active {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: #5496bd;
 }
 
 .button-booking {
   color: #ffffff;
+
   background-color: #766357;
 }
 
@@ -959,6 +989,7 @@ input[type="radio"].visually-hidden {
 
 .button-booking:active {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: #503e33;
 }
 
@@ -966,8 +997,8 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   width: 150px;
   margin-left: 430px;
-  text-align: right;
 
+  text-align: right;
 }
 
 .stars-wrapper span {
@@ -980,6 +1011,7 @@ input[type="radio"].visually-hidden {
   padding-left: 13px;
   padding-right: 13px;
   margin-top: 40px;
+
   color: #666666;
   background-color: #f2f2f2;
 }
@@ -989,18 +1021,23 @@ input[type="radio"].visually-hidden {
 /* Начало стилизации футера */
 
 .main-footer {
-  display: flex;
   position: relative;
+
+  display: flex;
+
   text-align: center;
+
   background-color: #ffffff;
 }
 
 .footer-index {
-  display: flex;
   content: "";
   position: absolute;
   left: 0px;
   bottom: 0px;
+
+  display: flex;
+
   background-color: rgba(255, 255, 255, 0.9);
 }
 
@@ -1013,6 +1050,7 @@ input[type="radio"].visually-hidden {
   display: block;
   padding-top: 46px;
   padding-bottom: 49px;
+
   font-size: 21px;
   line-height: 26px;
   font-weight: 700;
@@ -1028,9 +1066,10 @@ input[type="radio"].visually-hidden {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 151px;
-  list-style: none;
   margin: 0 auto;
   padding: 0;
+
+  list-style: none;
 }
 
 .social-button {
@@ -1059,6 +1098,7 @@ input[type="radio"].visually-hidden {
 .footer-copyright {
   padding: 0;
   margin: 0;
+
   font-size: 14px;
   line-height: 26px;
 
@@ -1073,7 +1113,6 @@ input[type="radio"].visually-hidden {
 .website {
   padding-top: 46px;
   padding-right: 3px;
-
 }
 
 .logo-htmlacademy {
@@ -1102,20 +1141,22 @@ input[type="radio"].visually-hidden {
   position: absolute;
   bottom: 201px;
   left: 315px;
-  background-color: #ffffff;
-  width: 570px;
+
   box-sizing: border-box;
+  width: 570px;
   padding: 55px;
   padding-top: 53px;
   padding-left: 56px;
+
   text-align: left;
+
+  background-color: #ffffff;
 }
 
 .search-form {
   font-size: 14px;
   line-height: 26px;
   font-weight: 700;
-
   color: #000000;
 }
 
@@ -1158,72 +1199,88 @@ input[type="radio"].visually-hidden {
 }
 
 .icon-calendar-entry {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar.png);
   background-repeat: no-repeat;
-  z-index: 6;
 }
 
 .icon-calendar-exit {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar.png);
   background-repeat: no-repeat;
-  z-index: 6;
 }
 
 .icon-calendar-entry:hover {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar-hover.png);
   background-repeat: no-repeat;
-  z-index: 6;
+
   cursor: pointer;
 }
 
 .icon-calendar-exit:hover {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar-hover.png);
   background-repeat: no-repeat;
-  z-index: 6;
+
   cursor: pointer;
 }
 
 .icon-calendar-entry:active {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar-active.png);
   background-repeat: no-repeat;
-  z-index: 6;
+
   cursor: pointer;
 }
 
 .icon-calendar-exit:active {
-  width: 24px;
-  height: 22px;
   position: absolute;
   right: 7px;
   top: 9px;
+  z-index: 6;
+
+  width: 24px;
+  height: 22px;
+
   background-image: url(../img/index-modal-calendar-active.png);
   background-repeat: no-repeat;
-  z-index: 6;
+
   cursor: pointer;
 }
 
@@ -1248,6 +1305,7 @@ input[type="radio"].visually-hidden {
 
 input::-moz-placeholder {
   color: #000000;
+
   opacity: 1;
 }
 
@@ -1291,31 +1349,36 @@ input:-ms-input-placeholder {
 .remove {
   background-color: #f2f2f2;
   border: none;
+
   cursor: pointer;
 }
 .remove-left {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 352px;
   top: 190px;
+  z-index: 6;
+
+  width: 50px;
+  height: 36px;
+
   background-image: url(../img/index-modal-minus.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .remove-left:hover,
 .remove-left:focus {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 352px;
   top: 190px;
+  z-index: 6;
+
+  width: 50px;
+  height: 36px;
+
   background-image: url(../img/index-modal-minus-hover.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .remove-left:active {
@@ -1331,15 +1394,17 @@ input:-ms-input-placeholder {
 }
 
 .remove-right {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 120px;
   top: 190px;
+  z-index: 6;
+
+  width: 50px;
+  height: 36px;
+
   background-image: url(../img/index-modal-minus.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .remove-right:hover,
@@ -1356,89 +1421,103 @@ input:-ms-input-placeholder {
 }
 
 .remove-right:active {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 120px;
   top: 190px;
+  z-index: 6;
+
+  width: 50px;
+  height: 36px;
+
   background-image: url(../img/index-modal-minus-active.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .add-left {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 290px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .add-left:hover,
 .add-left:focus {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 290px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus-hover.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .add-left:active {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 290px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus-active.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .add-right {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 58px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .add-right:hover,
 .add-right:focus {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 58px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus-hover.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .add-right:active {
-  width: 32px;
-  height: 36px;
   position: absolute;
   right: 58px;
   top: 190px;
+  z-index: 6;
+
+  width: 32px;
+  height: 36px;
+
   background-image: url(../img/index-modal-plus-active.png);
   background-repeat: no-repeat;
   background-position: 8px 12px;
-  z-index: 6;
 }
 
 .find-button {
@@ -1447,6 +1526,7 @@ input:-ms-input-placeholder {
   padding-top: 15px;
   padding-bottom: 15px;
   margin-top: 55px;
+
   font: inherit;
   font-size: 21px;
   line-height: 26px;
@@ -1459,6 +1539,7 @@ input:-ms-input-placeholder {
 
   background-color: #81b3d2;
   border: none;
+
   cursor: pointer;
 }
 
@@ -1469,6 +1550,7 @@ input:-ms-input-placeholder {
 
 .find-button:active {
   color: rgba(255, 255, 255, 0.3);
+
   background-color: #5496bd;
 }
 
