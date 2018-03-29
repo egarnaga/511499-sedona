@@ -856,7 +856,7 @@ input[type="radio"].visually-hidden {
 .item-wrapper {
   display: flex;
   padding-top: 27px;
-  padding-bottom: 21px;
+  padding-bottom: 31px;
   padding-left: 70px;
   padding-right: 73px;
 
@@ -1100,7 +1100,7 @@ input[type="radio"].visually-hidden {
 
 .modal-wrapper {
   position: absolute;
-  bottom: 203px;
+  bottom: 201px;
   left: 315px;
   background-color: #ffffff;
   width: 570px;
@@ -1132,8 +1132,12 @@ input[type="radio"].visually-hidden {
   margin-right: 15px;
 }
 
-.search-icon-calendar-entry {
+.entry-hotel-calendar,
+.exit-hotel-calendar {
   position: relative;
+}
+
+.search-icon-calendar-entry {
   padding-left: 10px;
   padding-right: 40px;
   padding-top: 5px;
@@ -1144,7 +1148,6 @@ input[type="radio"].visually-hidden {
 }
 
 .search-icon-calendar-exit {
-  position: relative;
   padding-left: 10px;
   padding-right: 40px;
   padding-top: 5px;
@@ -1152,6 +1155,76 @@ input[type="radio"].visually-hidden {
   margin-bottom: 15px;
   box-sizing: border-box;
   width: 345px;
+}
+
+.icon-calendar-entry {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+
+.icon-calendar-exit {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+}
+
+.icon-calendar-entry:hover {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar-hover.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.icon-calendar-exit:hover {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar-hover.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.icon-calendar-entry:active {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar-active.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+  cursor: pointer;
+}
+
+.icon-calendar-exit:active {
+  width: 24px;
+  height: 22px;
+  position: absolute;
+  right: 7px;
+  top: 9px;
+  background-image: url(../img/index-modal-calendar-active.png);
+  background-repeat: no-repeat;
+  z-index: 6;
+  cursor: pointer;
 }
 
 .search-form input {
@@ -1197,95 +1270,175 @@ input:-ms-input-placeholder {
 }
 
 .children-total-title {
-  margin-left: 50px;
-  margin-right: 20px;
+  margin-left: 82px;
+  margin-right: 75px;
 }
-
 
 .adult-sum,
 .children-sum {
   box-sizing: border-box;
   width: 30px;
-  padding-top: 7px;
-  padding-left: 7px;
+  margin-top: 15px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+}
+
+.adult-sum {
+  margin-left: 53px;
 }
 
 .add,
 .remove {
   background-color: #f2f2f2;
-  border: 2px solid #f2f2f2;
+  border: none;
   cursor: pointer;
 }
-
-.remove {
-  position:relative;
-  border: none;
-  background: #f2f2f2;
-  width: 33px;
-  height: 38px;
-  padding: 0;
-  transform: translateY(11px);
-}
-
-.remove::before {
-  content: "";
+.remove-left {
+  width: 50px;
+  height: 36px;
   position: absolute;
-  width: 11px;
-  height: 3px;
-  background-color: #a9a9a9;
-  left: 10px;
+  right: 352px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.remove:hover::before {
-  background-color: #000000;
-}
-
-.remove:focus::before {
-  background-color: #81b3d2;
-}
-
-.add {
-  border: none;
-  position: relative;
-  background: #f2f2f2;
-  width: 33px;
-  height: 38px;
-  padding: 0;
-  transform: translateY(11px);
-}
-
-.add::before {
-  content: "";
+.remove-left:hover,
+.remove-left:focus {
+  width: 50px;
+  height: 36px;
   position: absolute;
-  width: 11px;
-  height: 3px;
-  left: 13px;
-  background-color: #a9a9a9
+  right: 352px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.add::after {
-  content: "";
+.remove-left:active {
+  width: 50px;
+  height: 36px;
   position: absolute;
-  width: 3px;
-  height: 11px;
-  background-color: #a9a9a9;
-  top: 15px;
+  right: 352px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus-active.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.add:hover::before {
-  background-color: #000000;
+.remove-right {
+  width: 50px;
+  height: 36px;
+  position: absolute;
+  right: 120px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.add:focus::before {
-  background-color: #81b3d2;
+.remove-right:hover,
+.remove-right:focus {
+  width: 50px;
+  height: 36px;
+  position: absolute;
+  right: 120px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.add:hover::after {
-  background-color: #000000;
+.remove-right:active {
+  width: 50px;
+  height: 36px;
+  position: absolute;
+  right: 120px;
+  top: 190px;
+  background-image: url(../img/index-modal-minus-active.png);
+  background-repeat: no-repeat;
+  background-position: 12px 16px;
+  z-index: 6;
 }
 
-.add:focus::after {
-  background-color: #81b3d2;
+.add-left {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 290px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
+}
+
+.add-left:hover,
+.add-left:focus {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 290px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
+}
+
+.add-left:active {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 290px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus-active.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
+}
+
+.add-right {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 58px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
+}
+
+.add-right:hover,
+.add-right:focus {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 58px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus-hover.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
+}
+
+.add-right:active {
+  width: 32px;
+  height: 36px;
+  position: absolute;
+  right: 58px;
+  top: 190px;
+  background-image: url(../img/index-modal-plus-active.png);
+  background-repeat: no-repeat;
+  background-position: 8px 12px;
+  z-index: 6;
 }
 
 .find-button {
