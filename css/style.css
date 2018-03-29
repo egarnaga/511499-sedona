@@ -609,6 +609,7 @@ input[type="radio"].visually-hidden {
 .price-controls {
   position: relative;
 
+  display: flex;
   height: 33px;
   margin-bottom: 20px;
 
@@ -635,7 +636,7 @@ input[type="radio"].visually-hidden {
   display: inline-block;
 
   font-size: 14px;
-  line-height: 38px;
+  line-height: 32px;
   vertical-align: top;
 
   cursor: pointer;
@@ -645,6 +646,10 @@ input[type="radio"].visually-hidden {
 .price-controls .max-price {
   width: 90px;
   padding-left: 65px;
+}
+
+.price-controls .max-price {
+  padding-left: 58px;
 }
 
 .price-controls input {
