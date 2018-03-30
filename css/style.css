@@ -18,13 +18,15 @@ body {
   margin: 0 auto;
   padding: 0;
 
-  -webkit-box-shadow:
+/*  -webkit-box-shadow:
   6px 0 4px -4px rgba(0, 1, 1, 0.2),
- -6px 0 4px -4px rgba(0, 1, 1, 0.2);
+ -6px 0 4px -4px rgba(0, 1, 1, 0.2);*/
 
           box-shadow:
-  6px 0 4px -4px rgba(0, 1, 1, 0.2),
- -6px 0 4px -4px rgba(0, 1, 1, 0.2);
+  /*6px 0 4px -4px rgba(0, 1, 1, 0.2),
+ -6px 0 4px -4px rgba(0, 1, 1, 0.2);*/
+  0 10px 15px 5px rgba(0, 1, 1, 0.2);
+
 }
 
 a {
@@ -368,7 +370,7 @@ input[type="radio"].visually-hidden {
 }
 
 .reason-devils-bridge h3 {
-  margin-left: 20px;
+  margin: 0 auto;
 
 }
 
@@ -627,6 +629,10 @@ input[type="radio"].visually-hidden {
 
 .filter-input-checkbox:checked + label::before {
   background-image: none;
+}
+
+.filter-input-checkbox:disabled + label {
+opacity: 0.5;
 }
 
 .filter-price {
