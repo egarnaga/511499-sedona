@@ -1268,11 +1268,6 @@ opacity: 0.5;
   color: #000000;
 }
 
-.search-form p {
-  padding: 0;
-  margin: 0;
-}
-
 .entry-hotel-title {
   margin-right: 20px;
 }
@@ -1284,6 +1279,10 @@ opacity: 0.5;
 .entry-hotel-calendar,
 .exit-hotel-calendar {
   position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 27px;
 }
 
 .search-icon-calendar-entry {
@@ -1291,7 +1290,6 @@ opacity: 0.5;
   padding-right: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: 27px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 345px;
@@ -1427,10 +1425,13 @@ input:-ms-input-placeholder {
   color: #000000;
 }
 
+.modal-adult-and-children {
+  display: flex;
+}
+
 .modal-adult,
 .modal-children {
-  display: inline-block;
-  vertical-align: top;
+  display: flex;
 }
 
 .adult-total-title {

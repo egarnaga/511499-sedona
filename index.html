@@ -149,18 +149,20 @@
             <input class="search-icon-calendar-exit" id="exit-hotel" type="text" name="exit" placeholder="4 июля 2017" value="">
             <span class="icon-calendar-exit"></span>
           </p>
-          <p class="modal-adult">
-            <label class="adult-total-title" for="adult-total">Взрослые:</label>
-            <button class="remove remove-left" type="button"><span class="visually-hidden">Уменьшить количество взрослых на одну единицу</span></button
-            ><input class="adult-sum" id="adult-total" type="text" value="2" name="adult"
-            ><button class="add add-left" type="button"><span class="visually-hidden">Увеличить количество взрослых на одну единицу</span></button>
-          </p>
-          <p class="modal-children">
-            <label class="children-total-title" for="children-total">Дети:</label>
-            <button class="remove remove-right" type="button"><span class="visually-hidden">Уменьшить количество детей на одну единицу</span></button
-            ><input class="children-sum" id="children-total" type="text" value="0" name="children"
-            ><button class="add add-right" type="button"><span class="visually-hidden">Увеличить количество детей на одну единицу</span></button>
-          </p>
+          <div class="modal-adult-and-children">
+            <p class="modal-adult">
+              <label class="adult-total-title" for="adult-total">Взрослые:</label>
+              <button class="remove remove-left" type="button"><span class="visually-hidden">Уменьшить количество взрослых на одну единицу</span></button>
+              <input class="adult-sum" id="adult-total" type="text" value="2" name="adult">
+              <button class="add add-left" type="button"><span class="visually-hidden">Увеличить количество взрослых на одну единицу</span></button>
+            </p>
+            <p class="modal-children">
+              <label class="children-total-title" for="children-total">Дети:</label>
+              <button class="remove remove-right" type="button"><span class="visually-hidden">Уменьшить количество детей на одну единицу</span></button>
+              <input class="children-sum" id="children-total" type="text" value="0" name="children">
+              <button class="add add-right" type="button"><span class="visually-hidden">Увеличить количество детей на одну единицу</span></button>
+            </p>
+          </div>
           <button class="find-button" type="submit">Найти</button>
         </form>
       </div>
