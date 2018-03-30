@@ -948,7 +948,7 @@ input[type="radio"].visually-hidden {
   display: -ms-flexbox;
   display: flex;
   padding-top: 27px;
-  padding-bottom: 31px;
+  padding-bottom: 22px;
   padding-left: 70px;
   padding-right: 73px;
 
@@ -1005,6 +1005,14 @@ input[type="radio"].visually-hidden {
 
 .hotels-item-price {
   padding-left: 35px;
+}
+
+.hotels-item-price-desert {
+  padding-left: 62px;
+}
+
+.hotels-item-price-villas {
+  padding-left: 18px;
 }
 
 .hotels-item-title {
