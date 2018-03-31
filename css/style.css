@@ -653,6 +653,10 @@ opacity: 0.5;
   line-height: 21px;
 }
 
+.filter-price input {
+  min-height: 35px;
+}
+
 .price-controls {
   position: relative;
 
@@ -1243,7 +1247,7 @@ opacity: 0.5;
 
 .modal-wrapper {
   position: absolute;
-  bottom: 201px;
+  bottom: 144px;
   left: 315px;
 
   -webkit-box-sizing: border-box;
@@ -1251,7 +1255,7 @@ opacity: 0.5;
           box-sizing: border-box;
   width: 570px;
   padding: 55px;
-  padding-top: 53px;
+  padding-top: 38px;
   padding-left: 56px;
 
   text-align: left;
@@ -1269,11 +1273,11 @@ opacity: 0.5;
 }
 
 .entry-hotel-title {
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .exit-hotel-title {
-  margin-right: 15px;
+  margin-right: 19px;
 }
 
 .entry-hotel-calendar,
@@ -1293,6 +1297,7 @@ opacity: 0.5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 345px;
+  min-height: 38px;
 }
 
 .search-icon-calendar-exit {
@@ -1304,6 +1309,7 @@ opacity: 0.5;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 345px;
+  min-height: 38px;
 }
 
 .icon-calendar-entry {
@@ -1436,6 +1442,7 @@ input:-ms-input-placeholder {
 
 .adult-total-title {
   margin-right: 34px;
+  vertical-align: center;
 }
 
 .children-total-title {
@@ -1451,6 +1458,7 @@ input:-ms-input-placeholder {
   margin-top: 15px;
   padding-top: 2px;
   padding-bottom: 4px;
+  min-height: 38px;
 }
 
 .adult-sum {
