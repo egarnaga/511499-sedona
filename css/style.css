@@ -1273,11 +1273,11 @@ box-shadow:
 }
 
 .entry-hotel-title {
-  margin-right: 24px;
+  margin-right: 23px;
 }
 
 .exit-hotel-title {
-  margin-right: 20px;
+  margin-right: 19px;
 }
 
 .entry-hotel-calendar,
@@ -1306,7 +1306,7 @@ box-shadow:
   padding-bottom: 5px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 340px;
+  width: 345px;
   min-height: 38px;
 }
 
@@ -1318,7 +1318,7 @@ box-shadow:
 
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 340px;
+  width: 345px;
   min-height: 38px;
 }
 
