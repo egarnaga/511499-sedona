@@ -1323,7 +1323,7 @@ opacity: 0.5;
 
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  width: 345px;
+  width: 340px;
   min-height: 38px;
 }
 
@@ -1463,19 +1463,19 @@ input:-ms-input-placeholder {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 3px;
+  margin-top: 5px;
 }
 
 .adult-total-title {
-  margin-right: 34px;
+  margin-right: 40px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
 .children-total-title {
-  margin-left: 86px;
-  margin-right: 78px;
+  margin-left: 55px;
+  margin-right: 28px;
 }
 
 .adult-sum,
@@ -1489,10 +1489,6 @@ input:-ms-input-placeholder {
   min-height: 38px;
 }
 
-.adult-sum {
-  margin-left: 56px;
-}
-
 .add,
 .remove {
   background-color: #f2f2f2;
@@ -1501,11 +1497,6 @@ input:-ms-input-placeholder {
   cursor: pointer;
 }
 .remove-left {
-  position: absolute;
-  right: 352px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1516,11 +1507,6 @@ input:-ms-input-placeholder {
 
 .remove-left:hover,
 .remove-left:focus {
-  position: absolute;
-  right: 352px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1530,11 +1516,6 @@ input:-ms-input-placeholder {
 }
 
 .remove-left:active {
-  position: absolute;
-  right: 352px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1544,11 +1525,6 @@ input:-ms-input-placeholder {
 }
 
 .remove-right {
-  position: absolute;
-  right: 120px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1559,11 +1535,6 @@ input:-ms-input-placeholder {
 
 .remove-right:hover,
 .remove-right:focus {
-  position: absolute;
-  right: 120px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1573,11 +1544,6 @@ input:-ms-input-placeholder {
 }
 
 .remove-right:active {
-  position: absolute;
-  right: 120px;
-  top: 189px;
-  z-index: 6;
-
   width: 50px;
   height: 38px;
 
@@ -1587,11 +1553,6 @@ input:-ms-input-placeholder {
 }
 
 .add-left {
-  position: absolute;
-  right: 291px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1602,11 +1563,6 @@ input:-ms-input-placeholder {
 
 .add-left:hover,
 .add-left:focus {
-  position: absolute;
-  right: 291px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1616,11 +1572,6 @@ input:-ms-input-placeholder {
 }
 
 .add-left:active {
-  position: absolute;
-  right: 291px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1630,11 +1581,6 @@ input:-ms-input-placeholder {
 }
 
 .add-right {
-  position: absolute;
-  right: 59px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1645,11 +1591,6 @@ input:-ms-input-placeholder {
 
 .add-right:hover,
 .add-right:focus {
-  position: absolute;
-  right: 59px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1659,11 +1600,6 @@ input:-ms-input-placeholder {
 }
 
 .add-right:active {
-  position: absolute;
-  right: 59px;
-  top: 189px;
-  z-index: 6;
-
   width: 32px;
   height: 38px;
 
@@ -1677,7 +1613,7 @@ input:-ms-input-placeholder {
   padding-right: 195px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-top: 41px;
+  margin-top: 39px;
 
   font: inherit;
   font-size: 21px;
