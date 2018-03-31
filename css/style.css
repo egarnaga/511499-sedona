@@ -1247,7 +1247,7 @@ opacity: 0.5;
 
 .modal-wrapper {
   position: absolute;
-  bottom: 144px;
+  bottom: 200px;
   left: 315px;
 
   -webkit-box-sizing: border-box;
@@ -1277,7 +1277,7 @@ opacity: 0.5;
 }
 
 .exit-hotel-title {
-  margin-right: 19px;
+  margin-right: 20px;
 }
 
 .entry-hotel-calendar,
@@ -1287,6 +1287,10 @@ opacity: 0.5;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 27px;
+}
+
+.exit-hotel-calendar {
+  margin-top: 0;
 }
 
 .search-icon-calendar-entry {
@@ -1305,7 +1309,7 @@ opacity: 0.5;
   padding-right: 40px;
   padding-top: 5px;
   padding-bottom: 5px;
-  margin-bottom: 15px;
+
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 345px;
@@ -1438,16 +1442,19 @@ input:-ms-input-placeholder {
 .modal-adult,
 .modal-children {
   display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 3px;
 }
 
 .adult-total-title {
   margin-right: 34px;
-  vertical-align: center;
+  align-items: center;
 }
 
 .children-total-title {
-  margin-left: 82px;
-  margin-right: 75px;
+  margin-left: 86px;
+  margin-right: 78px;
 }
 
 .adult-sum,
@@ -1455,14 +1462,14 @@ input:-ms-input-placeholder {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   width: 30px;
-  margin-top: 15px;
+  margin-top: 0px;
   padding-top: 2px;
   padding-bottom: 4px;
   min-height: 38px;
 }
 
 .adult-sum {
-  margin-left: 53px;
+  margin-left: 56px;
 }
 
 .add,
@@ -1475,11 +1482,11 @@ input:-ms-input-placeholder {
 .remove-left {
   position: absolute;
   right: 352px;
-  top: 190px;
+  top: 189px;
   z-index: 6;
 
   width: 50px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-minus.png);
   background-repeat: no-repeat;
@@ -1490,11 +1497,11 @@ input:-ms-input-placeholder {
 .remove-left:focus {
   position: absolute;
   right: 352px;
-  top: 190px;
+  top: 189px;
   z-index: 6;
 
   width: 50px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-minus-hover.png);
   background-repeat: no-repeat;
@@ -1502,25 +1509,27 @@ input:-ms-input-placeholder {
 }
 
 .remove-left:active {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 352px;
-  top: 190px;
+  top: 189px;
+  z-index: 6;
+
+  width: 50px;
+  height: 38px;
+
   background-image: url(../img/index-modal-minus-active.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .remove-right {
   position: absolute;
   right: 120px;
-  top: 190px;
+  top: 189px;
   z-index: 6;
 
   width: 50px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-minus.png);
   background-repeat: no-repeat;
@@ -1529,25 +1538,27 @@ input:-ms-input-placeholder {
 
 .remove-right:hover,
 .remove-right:focus {
-  width: 50px;
-  height: 36px;
   position: absolute;
   right: 120px;
-  top: 190px;
+  top: 189px;
+  z-index: 6;
+
+  width: 50px;
+  height: 38px;
+
   background-image: url(../img/index-modal-minus-hover.png);
   background-repeat: no-repeat;
   background-position: 12px 16px;
-  z-index: 6;
 }
 
 .remove-right:active {
   position: absolute;
   right: 120px;
-  top: 190px;
+  top: 189px;
   z-index: 6;
 
   width: 50px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-minus-active.png);
   background-repeat: no-repeat;
@@ -1556,12 +1567,12 @@ input:-ms-input-placeholder {
 
 .add-left {
   position: absolute;
-  right: 290px;
-  top: 190px;
+  right: 291px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus.png);
   background-repeat: no-repeat;
@@ -1571,12 +1582,12 @@ input:-ms-input-placeholder {
 .add-left:hover,
 .add-left:focus {
   position: absolute;
-  right: 290px;
-  top: 190px;
+  right: 291px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus-hover.png);
   background-repeat: no-repeat;
@@ -1585,12 +1596,12 @@ input:-ms-input-placeholder {
 
 .add-left:active {
   position: absolute;
-  right: 290px;
-  top: 190px;
+  right: 291px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus-active.png);
   background-repeat: no-repeat;
@@ -1599,12 +1610,12 @@ input:-ms-input-placeholder {
 
 .add-right {
   position: absolute;
-  right: 58px;
-  top: 190px;
+  right: 59px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus.png);
   background-repeat: no-repeat;
@@ -1614,12 +1625,12 @@ input:-ms-input-placeholder {
 .add-right:hover,
 .add-right:focus {
   position: absolute;
-  right: 58px;
-  top: 190px;
+  right: 59px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus-hover.png);
   background-repeat: no-repeat;
@@ -1628,12 +1639,12 @@ input:-ms-input-placeholder {
 
 .add-right:active {
   position: absolute;
-  right: 58px;
-  top: 190px;
+  right: 59px;
+  top: 189px;
   z-index: 6;
 
   width: 32px;
-  height: 36px;
+  height: 38px;
 
   background-image: url(../img/index-modal-plus-active.png);
   background-repeat: no-repeat;
@@ -1645,7 +1656,7 @@ input:-ms-input-placeholder {
   padding-right: 195px;
   padding-top: 15px;
   padding-bottom: 15px;
-  margin-top: 55px;
+  margin-top: 41px;
 
   font: inherit;
   font-size: 21px;
