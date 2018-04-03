@@ -484,18 +484,9 @@ input[type="radio"].visually-hidden {
   background-color: #503e33;
 }
 
-/*
-
 .map {
-  background-color: #dae1c3;
+  position: relative;
 }
-
-.map img {
-  display: block;
-  margin: auto;
-}
-
-*/
 
 /* Начало стилизации holels.html */
 
@@ -1243,13 +1234,19 @@ opacity: 0.5;
 /* Начало стилизации модального окна */
 
 .modal {
-  position: relative;
+  /*
+  position: relative;*/
+  position: absolute;
+  top: 0;
+  left:50%;
+  transform: translateX(-50%);
 }
 
 .modal-wrapper {
+  /*
   position: absolute;
   bottom: 200px;
-  left: 315px;
+  left: 315px; */
 
   -webkit-box-sizing: border-box;
 

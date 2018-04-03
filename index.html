@@ -93,6 +93,38 @@
       <section class="map container">
         <h2 class="visually-hidden">Карта Аризоны</h2>
         <img src="img/index-map.png" width="1200" height="593" alt="Карта Аризоны">
+        <div class="modal modal-hotel-search">
+          <div class="modal-wrapper">
+            <h2 class="visually-hidden">Форма поиска гостиниц в Седоне</h2>
+            <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
+              <p class="entry-hotel-calendar">
+                <label class="entry-hotel-title" for="entry-hotel">Дата заезда:</label>
+                <input class="search-icon-calendar-entry" id="entry-hotel" type="text" name="entry" placeholder="24 апреля 2017" value="">
+                <span class="icon-calendar-entry"></span>
+              </p>
+              <p class="exit-hotel-calendar">
+                <label class="exit-hotel-title" for="exit-hotel">Дата выезда:</label>
+                <input class="search-icon-calendar-exit" id="exit-hotel" type="text" name="exit" placeholder="4 июля 2017" value="">
+                <span class="icon-calendar-exit"></span>
+              </p>
+              <div class="modal-adult-and-children">
+                <p class="modal-adult">
+                  <label class="adult-total-title" for="adult-total">Взрослые:</label>
+                  <button class="remove remove-left" type="button"><span class="visually-hidden">Уменьшить количество взрослых на одну единицу</span></button>
+                  <input class="adult-sum" id="adult-total" type="text" value="2" name="adult">
+                  <button class="add add-left" type="button"><span class="visually-hidden">Увеличить количество взрослых на одну единицу</span></button>
+                </p>
+                <p class="modal-children">
+                  <label class="children-total-title" for="children-total">Дети:</label>
+                  <button class="remove remove-right" type="button"><span class="visually-hidden">Уменьшить количество детей на одну единицу</span></button>
+                  <input class="children-sum" id="children-total" type="text" value="0" name="children">
+                  <button class="add add-right" type="button"><span class="visually-hidden">Увеличить количество детей на одну единицу</span></button>
+                </p>
+              </div>
+              <button class="find-button" type="submit">Найти</button>
+            </form>
+          </div>
+        </div>
       </section>
     </main>
 
@@ -135,38 +167,7 @@
       </div>
     </footer>
 
-    <section class="modal modal-hotel-search container">
-      <div class="modal-wrapper">
-        <h2 class="visually-hidden">Форма поиска гостиниц в Седоне</h2>
-        <form class="search-form" action="https://echo.htmlacademy.ru" method="get">
-          <p class="entry-hotel-calendar">
-            <label class="entry-hotel-title" for="entry-hotel">Дата заезда:</label>
-            <input class="search-icon-calendar-entry" id="entry-hotel" type="text" name="entry" placeholder="24 апреля 2017" value="">
-            <span class="icon-calendar-entry"></span>
-          </p>
-          <p class="exit-hotel-calendar">
-            <label class="exit-hotel-title" for="exit-hotel">Дата выезда:</label>
-            <input class="search-icon-calendar-exit" id="exit-hotel" type="text" name="exit" placeholder="4 июля 2017" value="">
-            <span class="icon-calendar-exit"></span>
-          </p>
-          <div class="modal-adult-and-children">
-            <p class="modal-adult">
-              <label class="adult-total-title" for="adult-total">Взрослые:</label>
-              <button class="remove remove-left" type="button"><span class="visually-hidden">Уменьшить количество взрослых на одну единицу</span></button>
-              <input class="adult-sum" id="adult-total" type="text" value="2" name="adult">
-              <button class="add add-left" type="button"><span class="visually-hidden">Увеличить количество взрослых на одну единицу</span></button>
-            </p>
-            <p class="modal-children">
-              <label class="children-total-title" for="children-total">Дети:</label>
-              <button class="remove remove-right" type="button"><span class="visually-hidden">Уменьшить количество детей на одну единицу</span></button>
-              <input class="children-sum" id="children-total" type="text" value="0" name="children">
-              <button class="add add-right" type="button"><span class="visually-hidden">Увеличить количество детей на одну единицу</span></button>
-            </p>
-          </div>
-          <button class="find-button" type="submit">Найти</button>
-        </form>
-      </div>
-    </section>
+
 
   </body>
 </html>
