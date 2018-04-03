@@ -916,12 +916,11 @@ opacity: 0.5;
   border-bottom: none;
 }
 
-.sorting-button-top a:hover path,
-.sorting-button-top a:focus path {
+.sorting-button-top-btn:hover path {
   fill: #231f20;
 }
 
-.sorting-button-top a:active path {
+.sorting-button-top-btn:active path {
   fill: #81b3d2;
 }
 
