@@ -1118,7 +1118,7 @@ opacity: 0.5;
   content: "";
   position: absolute;
   left: 0px;
-  bottom: 0px;
+  bottom: 8px;
 
   display: -webkit-box;
 
@@ -1234,8 +1234,6 @@ opacity: 0.5;
 /* Начало стилизации модального окна */
 
 .modal {
-  /*
-  position: relative;*/
   position: absolute;
   top: 0;
   left:50%;
@@ -1243,11 +1241,6 @@ opacity: 0.5;
 }
 
 .modal-wrapper {
-  /*
-  position: absolute;
-  bottom: 200px;
-  left: 315px; */
-
   -webkit-box-sizing: border-box;
 
           box-sizing: border-box;
