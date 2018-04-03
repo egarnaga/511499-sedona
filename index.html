@@ -166,5 +166,15 @@
         </p>
       </div>
     </footer>
+    <script>
+      var link = document.querySelector(".search-button");
+
+      var popup = document.querySelector(".modal-hotel-search");
+
+      link.addEventListener("click", function (evt) {
+        evt.preventDefault();
+        popup.classList.add("modal-show");
+      });
+    </script>
   </body>
 </html>

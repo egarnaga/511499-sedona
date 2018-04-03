@@ -1234,9 +1234,16 @@ opacity: 0.5;
 
 .modal {
   position: absolute;
+
+  display: none;
+
   top: 0;
   left:50%;
   transform: translateX(-50%);
+}
+
+.modal-show {
+  display: block;
 }
 
 .modal-wrapper {
