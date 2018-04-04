@@ -171,9 +171,12 @@
 
       var popup = document.querySelector(".modal-hotel-search");
 
+      var entry = popup.querySelector("[name=entry]");
+
       link.addEventListener("click", function (evt) {
         evt.preventDefault();
         popup.classList.add("modal-show");
+        entry.focus();
       });
     </script>
   </body>
