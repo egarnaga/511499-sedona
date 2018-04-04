@@ -171,13 +171,30 @@
 
       var popup = document.querySelector(".modal-hotel-search");
 
+      var form = popup.querySelector("form");
       var entry = popup.querySelector("[name=entry]");
+      var exit = popup.querySelector("[name=exit]");
 
       link.addEventListener("click", function (evt) {
         evt.preventDefault();
         popup.classList.add("modal-show");
         entry.focus();
       });
+
+      form.addEventListener("submit", function (evt) {
+        if (!entry.value || !exit.value) {
+        evt.preventDefault();
+        console.log("Нужно ввести дату заезда и дату выезда");
+    }
+      });
+      window.addEventListener("keydown", function (evt) {
+        if (evt.keyCode === 27) {
+          evt.preventDefault();
+          if (popup.classList.contains("modal-show")) {
+            popup.classList.remove("modal-show");
+      }
+    }
+  });
     </script>
   </body>
 </html>
