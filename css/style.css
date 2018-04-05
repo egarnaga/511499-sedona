@@ -1252,21 +1252,14 @@ opacity: 0.5;
 
 @keyframes bounce {
   0% {
-    transform: translateY(-393px);
+top: -393px;
   }
 
-  70% {
-    transform: translateY(30px);
-  }
-
-  90% {
-    transform: translateY(-10px);
-  }
-
-  100% {
-    transform: translateY(0);
+100% {
+top: 0;
   }
 }
+
 
 @keyframes shake {
   0%,
