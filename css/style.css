@@ -1134,6 +1134,7 @@ opacity: 0.5;
   position: absolute;
   left: 0px;
   bottom: 8px;
+  z-index: 2;
 
   display: -webkit-box;
 
@@ -1290,11 +1291,12 @@ opacity: 0.5;
 
 .modal {
   position: absolute;
+  top: 0;
+  left:50%;
+  z-index: 2;
 
   display: none;
 
-  top: 0;
-  left:50%;
   transform: translateX(-50%);
 }
 
