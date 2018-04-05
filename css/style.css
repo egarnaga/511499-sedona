@@ -1252,42 +1252,41 @@ opacity: 0.5;
 
 @keyframes bounce {
   0% {
-top: -393px;
+  top: -393px;
   }
 
 100% {
-top: 0;
+  top: 0;
   }
 }
 
-
 @keyframes shake {
 0% {
-left: 48%;
+  left: 48%;
   }
 
 15% {
-left: 52%;
+  left: 52%;
   }
 
 30% {
-left: 48%;
+  left: 48%;
   }
 
 45% {
-left: 52%;
+  left: 52%;
   }
 
 60% {
-left: 48%;
+  left: 48%;
   }
 
 80% {
-left: 52%;
+  left: 52%;
   }
 
 100% {
-left: 50%;
+  left: 50%;
   }
 }
 
