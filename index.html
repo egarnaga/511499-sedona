@@ -184,7 +184,9 @@
       form.addEventListener("submit", function (evt) {
         if (!entry.value || !exit.value) {
         evt.preventDefault();
-        console.log("Нужно ввести дату заезда и дату выезда");
+        popup.classList.remove("modal-error");
+        popup.offsetWidth = popup.offsetWidth;
+        popup.classList.add("modal-error");
     }
       });
       window.addEventListener("keydown", function (evt) {
@@ -192,6 +194,7 @@
           evt.preventDefault();
           if (popup.classList.contains("modal-show")) {
             popup.classList.remove("modal-show");
+            popup.classList.remove("modal-error");
       }
     }
   });
