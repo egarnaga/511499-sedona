@@ -486,6 +486,7 @@ input[type="radio"].visually-hidden {
 
 .map {
   position: relative;
+  overflow: hidden;
 }
 
 .map iframe {
@@ -1251,7 +1252,7 @@ opacity: 0.5;
 
 @keyframes bounce {
   0% {
-    transform: translateY(-300px);
+    transform: translateY(-393px);
   }
 
   70% {
