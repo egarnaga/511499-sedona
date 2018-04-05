@@ -965,9 +965,8 @@ opacity: 0.5;
 }
 
 .item-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
+  justify-content: space-between;
   padding-top: 27px;
   padding-bottom: 22px;
   padding-left: 70px;
@@ -994,15 +993,13 @@ opacity: 0.5;
 
 .hotels-item-image {
   padding-top: 3px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 135px;
+  flex-shrink: 0;
 }
 
 .hotels-info-wrapper {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  width: 300px;
+  box-sizing: border-box;
   padding-left: 31px;
 }
 
@@ -1092,10 +1089,8 @@ opacity: 0.5;
 }
 
 .rating-wrapper {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   width: 150px;
-  margin-left: 430px;
 
   text-align: right;
 }
