@@ -1071,8 +1071,8 @@ opacity: 0.5;
 .footer-index {
   content: "";
   position: absolute;
-  left: 0px;
-  bottom: 8px;
+  left: 0;
+  bottom: 0;
   z-index: 2;
 
   display: flex;
